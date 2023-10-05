@@ -33,7 +33,7 @@ public class ExcepcionesEjercicio05 {
             try {
                 adivina = Integer.parseInt(number);
                 if(adivina > num)
-                    System.out.println("El numero es menor");
+                    System.out.println("El numero es menor, usa otro");
                 else if(adivina < num)
                     System.out.println("El numero es mayor");
                 else{
